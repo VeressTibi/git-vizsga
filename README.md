@@ -11,4 +11,8 @@ git commit -m "style.css fájlban háttérszín módosítva."
 git add .
 git commit -m "readme fájl módosítva."
 git remote add origin https://github.com/VeressTibi/git-vizsga.git
+git remote remove origin
+git add .
+git commit -m " readme fájl módosítva."
+git remote add origin https://github.com/VeressTibi/git-vizsga.git
 git push -u origin main
